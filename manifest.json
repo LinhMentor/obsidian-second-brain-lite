@@ -1,0 +1,9 @@
+{
+  "name": "Second Brain Lite",
+  "version": "1.0.0",
+  "minAppVersion": "1.5.0",
+  "author": "LinhMentor",
+  "authorUrl": "https://github.com/LinhMentor",
+  "description": "A clean and modern Obsidian theme for knowledge systems, second-brain workflows, courses, and long-form thinking.",
+  "isDesktopOnly": false
+}
