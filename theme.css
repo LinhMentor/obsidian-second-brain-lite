@@ -303,3 +303,35 @@ th {
   background: var(--scrollbar-thumb-bg);
   border-radius: 999px;
 }
+
+.markdown-preview-view {
+  background: var(--background-primary);
+}
+
+.markdown-preview-view h2 {
+  position: relative;
+  overflow: hidden;
+}
+
+.markdown-preview-view h2::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(77,163,255,0.08),
+    transparent
+  );
+  pointer-events: none;
+}
+
+.workspace-leaf-content {
+  border-radius: 16px;
+}
+
+.workspace-split.mod-root .workspace-tabs {
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 12px 40px rgba(0,0,0,.12);
+}
